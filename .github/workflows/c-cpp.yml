@@ -1,0 +1,24 @@
+name: C/C++ CI
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+    - uses: actions/checkout@v2
+  
+    - name: hexfile
+      run: gcc Project/3_Implementation/ultrasonicsensor.hex
+    - name: ino file
+      run: gcc Project/3_Implementation/ultrasonicsensor.ino
+    - name: simuleide file
+      run: gcc Project/3_Implementation/ultrasonicsensor project.simu
