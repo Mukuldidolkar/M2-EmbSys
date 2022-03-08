@@ -38,6 +38,7 @@ IV.	Power Supply
   | HR01 | Distance should be displayed on the lcd screen
   | HR02 | the displayed distance should be in cm 
   | HR03 | the distance should change if we change the value in potentiometer
+  | HR04 | the value of distance displayed should be equal to zero when we turn of the power supply 
   
   
 
