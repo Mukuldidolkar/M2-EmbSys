@@ -28,27 +28,16 @@ IV.	Power Supply
 
 
 Requirements: 
-a)	High level requirements
 
-
-HLR-1	To measure the distance of the object with ultrasonic sensor
-HLR-2	To display the output on the 16 x 2 Lcd display
-
-
-
-
-
-b)	 Low Level Requirements
-
-
-LLR-1	Power supply of 5V DC
-LLR-2	Working current of 15mA
-LLR-3	Ranging distance from 2cm to 400cm
-LLR-4	It has a resolution of 0.3cm
-LLR-5	Measuring angle of 30 degree
-LLR-6	Trigger input pulse of width 10µs TTL Pulse
-LLR-7	Echo output signal is TTL pulse proportional to distance range
-
+|  ID|Description|
+  |---|---|
+  | LR01 | The Lcd screen should turn on after giving the power supply
+  | LR02 |  arduino should be in on state and the led on arduino should blink
+  | HR01 | Distance should be displayed on the lcd screen
+  | HR02 | the displayed distance should be in cm 
+  | HR03 | the distance should change if we change the value in potentiometer
+  
+  
 
 
 
