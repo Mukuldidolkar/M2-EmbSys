@@ -1,9 +1,11 @@
-Introduction: In this project an embedded system is designed using ultrasonic sensor ,Arduino and Lcd screen . Here the signal is sent from ultrasonic sensor which is bounced back after hitting the object. The time taken from the sensor is used to determine the distance between the object and the sensor. The distance hence obtained is displayed on the Lcd screen as the output.
+## Introduction:
+In this project an embedded system is designed using ultrasonic sensor ,Arduino and Lcd screen . Here the signal is sent from ultrasonic sensor which is bounced back after hitting the object. The time taken from the sensor is used to determine the distance between the object and the sensor. The distance hence obtained is displayed on the Lcd screen as the output.
 
 
 
 
-Components Required:  The components required for the project are
+## Components Required:  
+The components required for the project are
 
 
 I.	Arduino Uno 
@@ -27,7 +29,7 @@ IV.	Power Supply
 
 
 
-Requirements: 
+## Requirements: 
 
 |  ID|Description|
   |---|---|
@@ -43,7 +45,7 @@ Requirements:
 
 
 
-SWOT Analysis:
+## SWOT Analysis:
 
 Strengths: 
 
@@ -69,7 +71,7 @@ Threats:
 
 
 
-4W’s &1H:
+## 4W’s &1H:
 
 What
 
